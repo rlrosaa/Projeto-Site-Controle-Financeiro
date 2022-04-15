@@ -1,4 +1,4 @@
-# Nome do projeto
+# Educação Financeira
 Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Alunos integrantes da equipe
