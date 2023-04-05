@@ -1,5 +1,10 @@
 # Educação Financeira
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O objetivo do trabalho academico é criar um site que possa facilitar o contato dos universitários com o mercado financeiro e com investimento.
+Oferecer um ambiente com informações, dicas, ajuda, etc. Tudo isso em uma
+linguagem simples e de fácil entendimento. Facilitar a divulgação de empresas que
+tem boas alternativas de investimento a baixo custo. Ajudar o universitário a sair da
+faculdade com algum tipos de “poupança”.
+.
 
 ## Alunos integrantes da equipe
 
@@ -14,8 +19,4 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 ## Professores responsáveis
 
 * Alexandre Teixeira
-* Nome completo do professor 2
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+* Leonardo Vilela Cardoso
