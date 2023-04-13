@@ -20,3 +20,7 @@ faculdade com algum tipos de “poupança”.
 
 * Alexandre Teixeira
 * Leonardo Vilela Cardoso
+
+## Instruções de Uso
+
+* O projeto está disponível na pasta "Código". Para acessar o site é só abrir o arquivo "index.html" com os demais arquivos no mesmo diretório.
