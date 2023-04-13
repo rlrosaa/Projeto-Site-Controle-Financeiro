@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="imagens/WhatsApp Image 2022-07-06 at 08.34.39-modified.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <h1>Cadastrar</h1>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+    
+            <div class="label-float"> 
+                <input type="text" id="nome" placeholder="" required>
+                <label id="labelNome" for="nome">Nome</label>
+            </div>
+
+            <div class="label-float"> 
+                <input type="text" id="usuario" placeholder="" required>
+                <label id="labelUsuario" for="usuario">Usuário</label>
+            </div>
+    
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="labelSenha" for="senha">Senha</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="confirmasenha" placeholder="" required>
+                <label id="labelConfirmaSenha" for="confirmasenha">Confirme a senha</label>
+            </div>
+    
+            <div>
+                <button onclick='cadastrar()' >Cadastrar</button>
+            </div>
+           
+        </div>
+    </div>
+</body>
+<script src="cadastro.js"></script>
+</html> 

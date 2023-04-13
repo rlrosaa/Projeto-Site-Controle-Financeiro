@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica, sans-serif';
+}
+
+body{ 
+    background-color: #18191c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 4%;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#323232;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #323232;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #783423;
+}
+
+.label-float label{
+    color: #323232;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+    font-size: 20px;
+    margin-top: 0;
+    color: #323232;
+}
+
+button{
+    background-color: transparent;
+    border-color: #323232;
+    color: #323232;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #323232;
+    color:aliceblue
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color: #323232;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: #323232;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #323232;
+}
+
+#msgError{
+    text-align: center;
+    color: red;
+    background-color: #f16f6f80;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#msgSuccess{
+    text-align: center;
+    color: green;
+    background-color: #abff2e80;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}

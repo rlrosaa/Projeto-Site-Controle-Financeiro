@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="imagens/WhatsApp Image 2022-07-06 at 08.34.39-modified.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <h1>Faça login para acessar o conteúdo</h1>
+            <div id="msgError"></div>
+    
+            <div class="label-float"> 
+                <input type="text" id="usuario" placeholder="" required>
+                <label id="userLabel" for="usuario">Usuario</label>
+            </div>
+    
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="senhaLabel" for="senha">Senha</label>
+            </div>
+    
+            <div>
+                <button onclick="entrar()">Entrar</button>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <p>Novo por aqui?
+                <a href="cadastro.html">Cadastre-se</a>
+            </p>
+    
+        </div>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>

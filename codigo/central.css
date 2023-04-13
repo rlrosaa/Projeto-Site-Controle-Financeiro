@@ -1,0 +1,46 @@
+.form{
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+}
+.enunciado{
+    font-style: italic;
+    font-size: 40px;
+}
+.grafico{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+.tabela{
+    text-align: center;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+}
+.coluna1{
+    padding: 20px;
+}
+.coluna2{
+    padding: 20px;
+}
+.modal-body{
+    padding-right: 45px;
+    align-items: center;
+}
+#enTabela{
+  display: inline-block;
+  text-align: center;
+}
+#form-grafico{
+  padding: 30px;
+  padding-bottom: 40px;
+}
+#imagemModal{
+    width: 30%;
+    height: 30%;
+    padding-right: 10px;
+}

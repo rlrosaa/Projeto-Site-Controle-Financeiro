@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="imagens/WhatsApp Image 2022-07-06 at 08.34.39-modified.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>YOUNG MONEY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="central.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            
+</head> 
+
+<body>
+    <header class="header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                    <img class="navbar-brand" src="imagens/icone_usuario.png" alt="logo"  data-bs-toggle="collapse">
+                    <a class="nav-link" aria-current="page" name="log" href="login.html" style="color:white">Login/Cadastrar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#dicas">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#grafico">Gráfico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#forum">Publicações</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>  
+    <main>
+        <div class="banner">
+            <h1 class="titulo bemvindo">BEM VINDO AO SITE YOUNG MONEY </h1>
+            <div class="imgbanner">
+                <img class="bannerimg" src="imagens/banner.gif">
+            </div>    
+        </div>
+        <div id="dicas">
+            <h1 class="titulodica">DICAS</h1>  
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="financeiro1nolog.html">
+                    <img src="imagens/financeiro1.jpg"  class="imagemfinaceira">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                   <a href="financeiro2nolog.html">
+                   <img src="imagens/financeiro2.jpg" class="imagemfinaceira">
+                   </a>
+                 </div>
+                 <div class="carousel-item">
+                   <a href="financeiro3nolog.html">
+                   <img src="imagens/financeiro3.jpg" class="imagemfinaceira">
+                   </a>
+                  </div>
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+             </button>
+             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+              </button>
+              </div> 
+        </div>
+            <div id="grafico">
+              <h1 class="titulo">GRÁFICO MONETÁRIO </h1>
+                <div class="alguma_coisa">
+                    <div class="container">
+                        <div class="row">
+                            
+                                <!--tabela (visão semanal)-->
+                                
+                                    
+                                <!--FIM tabela-->
+                                
+                                    <div id="form-grafico">
+                                
+                                        <!--gráfico-->
+                                            <div class="grafico"> 
+                                                <canvas id="Chart"></canvas>
+                                            </div>
+                                            
+                                        <!--FIM gráfico-->
+
+                                        <!--formulário -->
+                                    
+                                        <div class="form" id="form">
+
+                                            <p class="enunciado">. DADOS .</p>
+                                            <div onmouseenter="entrare()" onmouseout="saire()" id="educacao">Educação</div>
+                                            <div id="percentagemA"> </div>
+                                            <p><input id="DADOeducacao" type="number" name="dados"></p>
+                                            <div onmouseenter="entrari()" onmouseout="sairi()" id="investimento">Investimento</div>
+                                            <div id="percentagemB"> </div>
+                                            <p><input id="DADOinvestimento" type="number" name="dados"></p>
+                                            <div onmouseenter="entrard()" onmouseout="saird()" id="despeza">Despeza</div>
+                                            <div id="percentagemC"> </div>
+                                            <p><input id="DADOdespeza" type="number" name="dados"></p>
+                                            <div onmouseenter="entrarl()" onmouseout="sairl()" id="lazer">Lazer</div>
+                                            <div id="percentagemD"> </div>
+                                            <p><input id="DADOlazer" type="number" name="dados"></p>
+                                            <p><button id="verificar" onclick="verificar()">Inserir</button></p>
+
+                                        </div>
+                                    <!--FIM formulário-->
+                                    </div>
+                                    <div class="dadosemcasa" style="text-align:end; max-width: 423px; margin-left: 100px;">
+                                        <p class="enunciado" id="enTabela">TABELA</p>
+                                        <div class="tabela">
+                                            <div class="coluna1"><p>gastos</p>
+                                            <!--criação de linhas-->
+                                                <ul id="c1">
+                                                </ul>
+                                            </div>
+                                            <div class="coluna2"><p>investimentos</p>
+                                            <!--criação de linhas-->  
+                                                <ul id="c2">
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                            
+                        </div>    
+                    </div>   
+                </div>
+            </div>    
+            <div id="forum">              
+                <h1 class="titulo">PUBLICAÇÕES </h1>
+                <div class="forum">
+                    
+                                        <div id="secaoPubs">
+                                            <div id="janelaPub">
+                                                <div id="telaForum">
+                                                    <form action="/app.js">
+                                                        <input type="text" id="campoNome" placeholder="Seu nome"><br>
+                                                        <textarea name="publicacao" id="pub" placeholder="Escreva aqui sua publicação"></textarea><br>
+                                                        <input type="button" onclick="nãologado()" value="Publicar"><br>
+                                                        <input type="button" id="verPub" value="Ver Publicações">
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div id="verForum">  
+                                                
+                                            </div>
+                                        </div>
+                                           
+                </div>
+            </div>      
+            <script src="script.js"></script>
+            <script src="./grafico.js"></script>
+            
+
+    </main>
+    <footer>
+        <div class="text-center p-3">
+            <p class="footertext" style="color: white;">© 2022 Copyright: TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB -
+                <b>ICEI PUC MINAS</b>
+            </p>
+        </div>
+    </footer>
+    <script>
+        function nãologado() {
+            alert ('VOCÊ PRECISA ESTAR LOGADO PARA USAR ESSA FUNÇÃO')
+        }
+        function funcaoemdesenvolvimento() {
+            alert ('FUNÇÃO EM DESENVOLVIMENTO')
+        }
+        window.onload = () =>{
+            let contas;
+            renda.onchange = () => console.log(renda.value);
+            conta.onchange = () => console.log(conta.value);
+            educacao.onchange = () => console.log(educacao.value);
+            investimento.onchange = () => console.log(investimento.value);
+            
+            let chart = new Chart(document.getElementById("myChart"), {
+            type: 'pie',
+            data: {
+                labels:["Contas Fixas","Resto","Mensalidade da Faculdade","Valor para Investir"],
+                datasets: [{
+                    data: [500,50,1200,100],
+                    backgroundColor: [
+                        'rgba(255, 0, 0)',
+                        'rgba(60, 179, 113)',
+                        'rgba(255, 165, 0)',
+                        'rgba(0, 0, 255)'
+                    ]
+                }
+                ]
+            },
+            options: {
+                scales:{
+                    yAxes: [
+                        {
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }
+                    ]
+                }
+            }
+        }); 
+        }
+
+    
+
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
